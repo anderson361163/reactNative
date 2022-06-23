@@ -37,7 +37,6 @@ const estilos = StyleSheet.create({
     topo: {
         width: "100%",
         height: 578 / 768 * width,
-        fontFamily: "MontserratRegular",
     },
     titulo:{
         width: "100%",
@@ -56,7 +55,7 @@ const estilos = StyleSheet.create({
     nome:{
         color: "#464646",
         fontSize: 26,
-        lineHeigth: 42, //tamanho da linha
+        lineHeight: 42, //tamanho da linha
         fontWeight: "bold",
     },
 

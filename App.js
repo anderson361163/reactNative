@@ -7,8 +7,8 @@ import Cestas from './src/telas/Cestas.js';
 export default function App() {
 
   const [fonteCarregada] = useFonts({
-    "MontserratRegular": Montserrat_400Regular,
-    "MontserratBold": Montserrat_700Bold,
+    MontserratRegular: Montserrat_400Regular,
+    MontserratBold: Montserrat_700Bold,
   });
 
   if(!fonteCarregada){
